@@ -17,15 +17,15 @@ const StarIcon: React.FC<{ className: string }> = ({ className }) => (
 const testimonialsData = [
     {
         quote: "Com o auxílio da equipe de tráfego pago conseguimos superar as metas de vendas da nossa equipe. Dessa forma, aumentamos nossas vendas e crescemos nossa equipe contratando mais pessoas.",
-        author: "Ronaldo Figueira",
+        author: "Carlos Menezes",
     },
     {
         quote: "Resultado já provado. Qualidade em atendimento e resolução dos problemas. Não importa dia ou hora, sempre disponíveis para atender e resolver.",
-        author: "Leonardo Rabai",
+        author: "João Paulo",
     },
     {
         quote: "Excelentes pessoas para trabalhar, sempre que a gente precisou vocês estão prontos a esclarecer qualquer dúvida e sempre fazendo da melhor forma para todos.",
-        author: "Marta",
+        author: "Fernanda Oliveira",
     },
 ];
 
@@ -59,13 +59,6 @@ const Testimonials: React.FC = () => {
                     {testimonialsData.map((testimonial, index) => (
                         <TestimonialCard key={index} {...testimonial} />
                     ))}
-                </div>
-                
-                <div className="mt-20 flex justify-center">
-                    <div className="text-center p-4 bg-white rounded-2xl shadow-lg inline-block">
-                        <img src="https://picsum.photos/seed/teamphoto/600/350" alt="Agency Team" className="rounded-xl" />
-                        <p className="mt-4 text-gray-600">Nossa equipe dedicada trabalhando para o sucesso dos nossos clientes.</p>
-                    </div>
                 </div>
             </div>
         </section>

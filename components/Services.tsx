@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const icons = {
@@ -27,7 +26,7 @@ const ServiceCard: React.FC<{ title: string; description: string; icon: React.Re
             </div>
             <h3 className="mt-6 text-xl font-bold text-gray-900">{title}</h3>
             <p className="mt-2 text-gray-600 flex-grow">{description}</p>
-            <a href="#" className="mt-6 font-semibold text-brand-blue hover:text-brand-dark-blue">
+            <a href="#contato" className="mt-6 font-semibold text-brand-blue hover:text-brand-dark-blue">
                 Saiba mais &rarr;
             </a>
         </div>
@@ -50,7 +49,7 @@ const Services: React.FC = () => {
                     ))}
                 </div>
                 <div className="mt-16 text-center">
-                    <a href="#" className="inline-block px-10 py-4 text-lg font-medium text-white bg-brand-blue rounded-lg hover:bg-brand-dark-blue focus:ring-4 focus:outline-none focus:ring-blue-300 transition-colors">
+                    <a href="#contato" className="inline-block px-10 py-4 text-lg font-medium text-white bg-brand-blue rounded-lg hover:bg-brand-dark-blue focus:ring-4 focus:outline-none focus:ring-blue-300 transition-colors">
                         Solicitar orçamento
                     </a>
                 </div>

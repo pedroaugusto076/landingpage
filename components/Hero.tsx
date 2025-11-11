@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const ArrowRightIcon: React.FC<{ className?: string }> = ({ className }) => (
@@ -10,45 +9,38 @@ const ArrowRightIcon: React.FC<{ className?: string }> = ({ className }) => (
 
 const Hero: React.FC = () => {
     const stats = [
-        { value: "R$ 15M+", label: "Resultados em anúncios" },
+        { value: "7x ROAS", label: "Retorno sobre investimento" },
         { value: "50+", label: "Clientes ativos" },
         { value: "3+", label: "Anos de experiência" }
     ];
 
     return (
-        <section className="py-20 md:py-32 bg-white">
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    <div className="text-center lg:text-left">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
-                            Agência de tráfego pago <span className="text-brand-blue">em Palmas/TO</span>
-                        </h1>
-                        <p className="mt-6 text-lg text-gray-600 max-w-xl mx-auto lg:mx-0">
-                            Descubra como a nossa expertise em tráfego pago pode aumentar suas vendas e transformar seu negócio em uma referência.
-                        </p>
-                        <div className="mt-8">
-                            <a href="#" className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-brand-blue rounded-lg hover:bg-brand-dark-blue focus:ring-4 focus:outline-none focus:ring-blue-300 transition-colors">
-                                Entre em contato
-                                <ArrowRightIcon className="w-5 h-5 ml-2" />
-                            </a>
-                        </div>
-                        <div className="mt-12 flex justify-center lg:justify-start space-x-8 sm:space-x-12">
-                            {stats.map((stat, index) => (
-                                <div key={index}>
-                                    <p className="text-3xl font-bold text-brand-blue">{stat.value}</p>
-                                    <p className="text-sm text-gray-500 mt-1">{stat.label}</p>
-                                </div>
-                            ))}
-                        </div>
+        <section id="inicio" className="relative overflow-hidden py-20 md:py-32 bg-white">
+            <div aria-hidden="true" className="absolute inset-0 -z-10">
+                 <div className="absolute top-[-10rem] left-[-20rem] h-[40rem] w-[40rem] rounded-full bg-brand-blue/10 blur-3xl"></div>
+                 <div className="absolute bottom-[-5rem] right-[-15rem] h-[30rem] w-[50rem] rounded-full bg-brand-green/10 blur-3xl"></div>
+            </div>
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
+                <div className="text-center">
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+                        Mais clientes, mais lucro e crescimento consistente para o seu negócio.
+                    </h1>
+                    <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+                        Na Tráfego Elevado seu negócio vende mais, conquista clientes fiéis e multiplica os resultados do seu negócio.
+                    </p>
+                    <div className="mt-8">
+                        <a href="#contato" className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-brand-blue rounded-lg hover:bg-brand-dark-blue focus:ring-4 focus:outline-none focus:ring-blue-300 transition-colors">
+                            Entre em contato
+                            <ArrowRightIcon className="w-5 h-5 ml-2" />
+                        </a>
                     </div>
-                    <div className="flex justify-center">
-                        <div className="relative">
-                            <div className="absolute -top-4 -left-4 w-20 h-20 bg-blue-100 rounded-full opacity-50"></div>
-                            <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-blue-100 rounded-full opacity-50"></div>
-                            <div className="relative p-2 bg-white rounded-2xl shadow-2xl overflow-hidden">
-                                <img src="https://picsum.photos/seed/agencymanager/400/500" alt="Agency Manager" className="rounded-xl w-full max-w-sm" />
+                    <div className="mt-12 flex justify-center space-x-8 sm:space-x-12">
+                        {stats.map((stat, index) => (
+                            <div key={index}>
+                                <p className="text-3xl font-bold text-brand-blue">{stat.value}</p>
+                                <p className="text-sm text-gray-500 mt-1">{stat.label}</p>
                             </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>

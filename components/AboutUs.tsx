@@ -42,15 +42,15 @@ const AboutUs: React.FC = () => {
                 </div>
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="space-y-4 text-gray-600 text-lg">
-                        <p>A Agência 4Ads nasceu para atender empresários que precisam de mais clientes, mais vendas e mais lucro através de anúncios online.</p>
-                        <p>Estamos há mais de 3 anos com escritório físico em Palmas, falando de empresário para empresário, entendendo a importância de investir com inteligência e retorno.</p>
-                        <p>Enquanto muitas agências "fazem de tudo" e entregam vários serviços mal feitos, nós escolhemos o caminho oposto: somos especialistas em tráfego pago.</p>
-                        <p>Essa especialização nos permite entregar campanhas otimizadas e personalizadas para o crescimento do seu negócio.</p>
+                        <p>A Tráfego Elevado existe para transformar investimentos em resultados concretos. Nosso foco é ajudar empresários a conquistar mais clientes, mais vendas e mais lucro através de estratégias de anúncios online inteligentes e personalizadas.</p>
+                        <p>Com mais de 3 anos de experiência, entendemos de perto os desafios de quem administra um negócio. Falamos a mesma linguagem do empresário e sabemos que cada investimento precisa gerar retorno real.</p>
+                        <p>Enquanto muitas agências tentam oferecer “um pouco de tudo” e acabam entregando resultados medianos, nós escolhemos um caminho diferente: somos especialistas em tráfego pago.</p>
+                        <p>Essa especialização nos permite criar campanhas otimizadas, estratégicas e adaptadas à realidade do seu negócio, garantindo crescimento consistente e resultados que realmente fazem a diferença.</p>
                     </div>
                     <div className="space-y-6">
                         <InfoCard icon={icons.specialized} title="Foco especializado" description="Dedicação exclusiva ao tráfego pago para resultados superiores." color="bg-brand-blue" />
                         <InfoCard icon={icons.relationship} title="Relacionamento próximo" description="Atendimento direto e personalizado para cada cliente." color="bg-gray-800" />
-                        <InfoCard icon={icons.results} title="Resultados comprovados" description="Mais de R$ 15 milhões gerenciados com sucesso." color="bg-brand-green" />
+                        <InfoCard icon={icons.results} title="Resultados comprovados" description="Média de 7x de retorno sobre o investimento para nossos clientes." color="bg-brand-green" />
                     </div>
                 </div>
             </div>

@@ -1,10 +1,9 @@
-
 import React from 'react';
 
 const icons = {
-    dollar: (
+    growth: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
         </svg>
     ),
     users: (
@@ -17,18 +16,18 @@ const icons = {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
     ),
-    book: (
+    campaigns: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
     )
 };
 
 const statCards = [
-    { value: "R$ 15M+", label: "Gerenciados em anúncios online", icon: icons.dollar, color: 'blue' },
+    { value: "7x ROAS", label: "Retorno médio em anúncios", icon: icons.growth, color: 'blue' },
     { value: "50+", label: "Clientes ativos em diferentes segmentos", icon: icons.users, color: 'green' },
     { value: "10K+", label: "Horas usando os gerenciadores de anúncios", icon: icons.clock, color: 'purple' },
-    { value: "R$ 100K+", label: "Investidos em treinamentos e mentorias", icon: icons.book, color: 'orange' },
+    { value: "2000+", label: "Campanhas de sucesso criadas", icon: icons.campaigns, color: 'orange' },
 ];
 
 const colorClasses = {
@@ -47,17 +46,23 @@ const Experience: React.FC = () => {
                     <div className="mt-4 w-24 h-1 bg-brand-blue mx-auto"></div>
                 </div>
 
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    <div className="space-y-4 text-gray-600 text-lg">
-                        <p>Nosso fundador, <span className="font-bold">Cássio Prado</span> é membro do Mastermind do Pedro Sobral, o maior nome de anúncios online da América Latina, já esteve no TOP 10 por duas vezes entre mais de 1000 gestores no campeonato de tráfego pago e hoje é Professor e Consultor do time Sobral.</p>
-                    </div>
-                    <div className="relative p-2 bg-white rounded-2xl shadow-xl">
-                        <img src="https://picsum.photos/seed/conference/500/350" alt="Conference" className="rounded-xl" />
-                        <button className="absolute bottom-4 left-4 bg-brand-blue text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-brand-dark-blue transition-colors">
-                            Com Pedro Sobral
-                        </button>
-                    </div>
-                </div>
+<div className="items-center">
+  <div className="space-y-4 text-gray-600 text-lg text-center max-w-3xl mx-auto">
+    <p>
+      Nossa equipe construiu sua experiência em tráfego pago colocando em prática o conteúdo de{" "}
+      <a
+        href="https://www.google.com/search?q=quem+%C3%A9+pedro+sobral"
+        className="font-bold text-blue-600 underline hover:text-blue-800 transition-colors"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Pedro Sobral
+      </a>
+      , referência máxima em anúncios online na América Latina. Ao longo dos anos, desenvolveu estratégias que ajudaram diversos negócios a aumentar vendas e consolidar presença digital.
+    </p>
+  </div>
+</div>
+
 
                 <div className="mt-20">
                     <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">Alguns números que comprovam nossa experiência:</h3>

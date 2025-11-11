@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const ArrowRightIcon: React.FC<{ className?: string }> = ({ className }) => (
@@ -9,7 +8,7 @@ const ArrowRightIcon: React.FC<{ className?: string }> = ({ className }) => (
 
 const CTA: React.FC = () => {
     const stats = [
-        { value: "R$ 15M+", label: "Gerenciados" },
+        { value: "7x ROAS", label: "Retorno médio" },
         { value: "50+", label: "Clientes ativos" },
         { value: "3+", label: "Anos de experiência" }
     ];
@@ -18,10 +17,10 @@ const CTA: React.FC = () => {
         <section className="bg-brand-blue text-white">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
                 <div className="text-center max-w-3xl mx-auto">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold">Se o seu negócio fatura acima de R$ 80 mil/mês, está na hora de dar o próximo passo.</h2>
-                    <p className="mt-6 text-lg text-blue-200">Na Agência 4Ads, criamos estratégias personalizadas para transformar seu investimento em anúncios em vendas previsíveis e constantes.</p>
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold">Chegou a hora de transformar bom faturamento em crescimento explosivo.</h2>
+                    <p className="mt-6 text-lg text-blue-200">Na Agência Tráfego Elevado, criamos estratégias personalizadas para transformar seu investimento em anúncios em vendas previsíveis e constantes.</p>
                     <div className="mt-10">
-                        <a href="#" className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-brand-blue bg-white rounded-lg hover:bg-gray-200 transition-colors">
+                        <a href="#contato" className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-brand-blue bg-white rounded-lg hover:bg-gray-200 transition-colors">
                             Entre em contato
                             <ArrowRightIcon className="w-5 h-5 ml-2" />
                         </a>

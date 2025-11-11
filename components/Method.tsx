@@ -91,7 +91,7 @@ const Method: React.FC = () => {
         <section id="metodo" className="py-20 bg-white">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">Método 4Ads</h2>
+                    <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">Método Tráfego Elevado</h2>
                     <div className="mt-4 w-24 h-1 bg-brand-blue mx-auto"></div>
                     <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-600">Nosso método é baseado em 4 pilares que garantem campanhas eficientes.</p>
                 </div>
