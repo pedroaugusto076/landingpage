@@ -1,73 +1,67 @@
-# React + TypeScript + Vite
+🚀 Landing Page Empresarial – Alta Performance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page empresarial desenvolvida em React.js com TypeScript, projetada para alto tráfego, rápido carregamento e excelente experiência do usuário.
+Ideal para campanhas de marketing, tráfego pago, lançamentos de produtos e validação de serviços digitais.
 
-Currently, two official plugins are available:
+🌐 Demonstração (Deploy)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 Acesse o site em produção:
+https://trafegoelevado.netlify.app
 
-## React Compiler
+Deploy realizado na Netlify, com foco em performance, disponibilidade e estabilidade.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Principais características
 
-## Expanding the ESLint configuration
+⚡ Alta performance e carregamento otimizado
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+📱 Design totalmente responsivo
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🎯 Estrutura focada em conversão
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+🧩 Componentização com React
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🛡️ TypeScript para maior segurança e manutenibilidade
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🔒 Código escalável e organizado
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+🌐 Preparada para alto volume de acessos simultâneos
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🛠️ Tecnologias utilizadas
+
+React.js
+
+TypeScript
+
+JavaScript (ES6+)
+
+HTML5
+
+CSS3
+
+Netlify (deploy e hosting)
+
+📈 Objetivo do projeto
+
+Construir uma landing page moderna e robusta, capaz de:
+
+Suportar picos de tráfego
+
+Melhorar taxa de conversão
+
+Garantir estabilidade em produção
+
+Facilitar futuras expansões e integrações
+
+🚀 Como executar o projeto localmente
+# Instalar dependências
+npm install
+
+# Executar em ambiente de desenvolvimento
+npm start
+
+# Gerar build de produção
+npm run build
+
+📌 Considerações finais
+
+Projeto desenvolvido seguindo boas práticas de front-end, com foco em performance, organização de código, tipagem estática, experiência do usuário e ambientes de alto tráfego, sendo ideal para aplicações empresariais e campanhas de grande escala.
