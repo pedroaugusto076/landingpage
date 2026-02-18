@@ -53,5 +53,3 @@ Desenvolver uma landing page moderna e robusta capaz de:
 - Permitir fácil expansão futura  
 
 Projeto estruturado com foco em **performance, escalabilidade e manutenibilidade**.
-perl
-Copiar código
